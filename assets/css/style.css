@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* ------------------------------NAVBAR */
+.nav-container {
+    padding-left: 0;
+    padding-right: 0;
+}
