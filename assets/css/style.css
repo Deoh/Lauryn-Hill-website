@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -7,35 +7,47 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.home-title-color {
+    color: rgba(191, 146, 50, 0.5);
 }
 
 /* ------------------------------NAVBAR */
 .nav-container {
-    padding-left: 0;
-    padding-right: 0;
-    background-color: transparent;
-    position: absolute;
+    z-index: 1;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: transparent;
+  position: absolute;
 }
 
 /* ------------------------------HOMEPAGE */
 .home-container {
-    padding: 0;
-    height: 90vh;
-    background: url(../images/hill-lauryn-540.jpg) no-repeat center fixed;
-    /*     
+  padding: 0;
+  height: 90vh;
+  background: url(../images/hill-lauryn-540.jpg) no-repeat center fixed;
+  /*     
     above is shorthand for this:
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat; 
     */
-    background-size: cover; 
-   
+  background-size: cover;
 }
 
 .opaque-overlay {
-    position: inherit;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  background: transparent;
 }
