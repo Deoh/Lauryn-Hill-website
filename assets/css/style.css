@@ -10,17 +10,39 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.block-divider {
+    margin: 1rem auto;
+    width: 35px;
+    height: 8px;
+    border: 0;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
+
+/* ------------------------------COLOR */
 .home-title-color {
     color: rgba(191, 146, 50, 0.5);
+}
+
+.bg-color-sections {
+    background-color: rgba(70, 50, 13, 0.5);
 }
 
 /* ------------------------------NAVBAR */
 .nav-container {
     z-index: 1;
-  padding-left: 0;
-  padding-right: 0;
-  background-color: transparent;
-  position: absolute;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: transparent;
+    position: fixed;
 }
 
 /* ------------------------------HOMEPAGE */
@@ -51,3 +73,12 @@ body {
   text-align: center;
   background: transparent;
 }
+
+/* ------------------------------ABOUT */
+.about-container {
+    padding: 55px 15%;
+}
+
+/* Tour */
+
+
