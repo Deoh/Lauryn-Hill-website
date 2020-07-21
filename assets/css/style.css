@@ -10,6 +10,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.content-padding {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
 .block-divider {
     margin: 1rem auto;
     width: 35px;
@@ -34,6 +39,10 @@ body {
 
 .bg-color-sections {
     background-color: rgba(70, 50, 13, 0.5);
+}
+
+.text-color-white {
+    color: white;
 }
 
 /* ------------------------------NAVBAR */
@@ -76,9 +85,28 @@ body {
 
 /* ------------------------------ABOUT */
 .about-container {
-    padding: 55px 15%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 /* Tour */
 
+.tour-container {
+    padding: 0;
+    background: url(../images/lauryn-hill-live-2.jpg) no-repeat top center fixed;
+  /*     
+    above is shorthand for this:
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+    */
+  background-size: cover;
+}
 
+.tour-content-padding {
+    padding: 55px 15px;
+}
+
+.tour-container table {
+    margin-top: 16px;
+}
