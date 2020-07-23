@@ -4,10 +4,12 @@
   margin: 0;
   padding: 0;
   border: 0;
+  scroll-behavior: smooth;  /*smooth page scrolling*/
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 .content-padding {
@@ -89,7 +91,7 @@ body {
     padding-right: 15%;
 }
 
-/* Tour */
+/* ------------------------------TOUR */
 
 .tour-container {
     padding: 0;
@@ -109,4 +111,33 @@ body {
 
 .tour-container table {
     margin-top: 16px;
+}
+
+/* ------------------------------MUSIC & VIDEO */
+
+.album1 {
+    background: url(../images/the-miseducation-of-lauryn-hill.jpg);
+}
+
+.album2 {
+    background: url(../images/mtv-unplugged.jpg);
+}
+
+.album2 {
+
+}
+
+.mv-container {
+
+}
+
+.album-container {
+    width: 250px;
+    height: 250px;
+    margin: 15px auto;
+    border-radius: 8px; 
+
+    background-position: center;
+    background-size: cover;
+    
 }
