@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&display=swap');
+
 
 * {
   margin: 0;
@@ -78,12 +80,24 @@ body {
 }
 
 .jumbotron {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  background: transparent;
+    font-family: "Inconsolata", Montserrat;
+    position: absolute;
+    top: 34%;
+    width: 100%;
+    text-align: center;
+    background: transparent;
 }
+
+.display-4 {
+    font-weight: 600;
+}
+
+@media (min-width: 992px) {
+    .display-4 {
+        font-size: 8.5rem;
+    }
+}
+
 
 /* ------------------------------ABOUT */
 .about-container {
