@@ -89,6 +89,10 @@ body {
 .about-container {
     padding-left: 15%;
     padding-right: 15%;
+    
+}
+#about {
+    background-image:brown;
 }
 
 /* ------------------------------TOUR */
@@ -140,4 +144,21 @@ body {
     background-position: center;
     background-size: cover;
     
+}
+
+
+/* ------------------------------MUSIC & VIDEO */
+.contact-container input {
+    margin-bottom: 15px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
