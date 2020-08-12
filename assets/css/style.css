@@ -36,6 +36,10 @@ body {
     text-align: center;
 }
 
+.block-divider-color {
+    background-color: #bf9232;
+}
+
 /* ------------------------------COLOR */
 .home-title-color {
     color: rgba(191, 146, 50, 0.5);
@@ -47,6 +51,19 @@ body {
 
 .text-color-white {
     color: white;
+}
+
+/* Read More Button */
+.btn-warning {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+.btn-warning:hover {
+    color: black;
+    background-color: #bf9232;
+    border-color: #bf9232;
 }
 
 /* ------------------------------NAVBAR */
