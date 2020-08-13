@@ -25,7 +25,6 @@ body {
     height: 8px;
     border: 0;
     border-radius: 5px;
-    background-color: blue;
 }
 
 .uppercase {
@@ -47,6 +46,10 @@ body {
 
 .bg-color-sections {
     background-color: rgba(70, 50, 13, 0.5);
+}
+
+.bg-color-black {
+    background-color: black;
 }
 
 .text-color-white {
@@ -122,12 +125,8 @@ body {
     padding-right: 15%;
     
 }
-#about {
-    background-image:brown;
-}
 
 /* ------------------------------TOUR */
-
 .tour-container {
     padding: 0;
     background: url(../images/lauryn-hill-live-2.jpg) no-repeat top center fixed;
@@ -177,8 +176,19 @@ body {
     
 }
 
+/* video */
+.embed-responsive {
+    margin: 0 auto;
+    width: 70%;
+}
 
-/* ------------------------------MUSIC & VIDEO */
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    bottom: 50%;
+}
+
+/* ------------------------------CONTACT */
 .contact-container input {
     margin-bottom: 15px;
 }
