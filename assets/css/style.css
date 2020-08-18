@@ -56,19 +56,6 @@ body {
     color: white;
 }
 
-/* Read More Button */
-.btn-warning {
-    color: #fff;
-    background-color: black;
-    border-color: black;
-}
-
-.btn-warning:hover {
-    color: black;
-    background-color: #bf9232;
-    border-color: #bf9232;
-}
-
 /* ------------------------------NAVBAR */
 .nav-container {
     z-index: 1;
@@ -125,6 +112,27 @@ body {
     padding-right: 15%;
     
 }
+
+/* Read More Button */
+.btn-warning {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+
+.btn-warning:hover {
+    color: black;
+    background-color: #bf9232;
+    border-color: #bf9232;
+}
+
+.btn.btn-warning:after {
+  content: "Less";
+}
+
+.btn.btn-warning.collapsed:after {
+    content: "More";
+  }
 
 /* ------------------------------TOUR */
 .tour-container {
