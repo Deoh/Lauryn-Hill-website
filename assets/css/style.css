@@ -14,6 +14,10 @@ body {
   position: relative;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 .content-padding {
     padding-top: 55px;
     padding-bottom: 55px;
@@ -35,11 +39,22 @@ body {
     text-align: center;
 }
 
+
+
+/* ------------------------------COLOR */
+a {
+    color: #f3ddb2;
+}
+
+a:hover {
+    color: #6f6552;
+    text-decoration: none
+}
+
 .block-divider-color {
     background-color: #bf9232;
 }
 
-/* ------------------------------COLOR */
 .home-title-color {
     color: rgba(191, 146, 50, 0.5);
 }
@@ -114,10 +129,11 @@ body {
 }
 
 /* Read More Button */
-.btn-warning {
+.btn-warning, .btn-warning:focus {
     color: #fff;
     background-color: black;
     border-color: black;
+    box-shadow: none;
 }
 
 .btn-warning:hover {
@@ -157,20 +173,13 @@ body {
 
 /* ------------------------------MUSIC & VIDEO */
 
+/* ALBUM */
 .album1 {
     background: url(../images/the-miseducation-of-lauryn-hill.jpg);
 }
 
 .album2 {
     background: url(../images/mtv-unplugged.jpg);
-}
-
-.album2 {
-
-}
-
-.mv-container {
-
 }
 
 .album-container {
@@ -181,7 +190,79 @@ body {
 
     background-position: center;
     background-size: cover;
+
+    transition: .5s ease;
+    backface-visibility: hidden;
     
+}
+
+@media (min-width: 992px) {
+    .album-container {
+        width: 450px;
+        height: 450px;    
+        
+    }
+}
+
+.fade {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fade-container:hover .album1, .fade-container:hover .album2 {
+    opacity: 0.3;
+}
+
+.fade-container:hover .fade {
+    opacity: 1;
+}
+
+
+.list-group-item {
+    color: black;
+    background-color: transparent;
+}
+
+.social-links-album a i {
+    margin: 0 20px;
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: black;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links-album a i:hover {
+    color: black;
+    background: rgba(191,146,50,0.7);
+}
+
+@media (min-width: 992px) {
+    .social-links-album a i {
+        width: 62px;
+        height: 62px;
+        padding: 24px 0;
+        font-size: 26px;
+        line-height: 14px;
+    }
+}
+
+.mv-container {
+
 }
 
 /* video */
