@@ -266,6 +266,17 @@ a:hover {
 }
 
 /* video */
+
+.video-container {
+    margin: 12px 0;
+}
+
+@media (min-width: 768px) {
+    .video-container {
+        margin: 12px 36px;
+    }
+}
+
 .embed-responsive {
     margin: 0 auto;
     width: 70%;
