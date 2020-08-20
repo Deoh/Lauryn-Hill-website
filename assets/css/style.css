@@ -80,6 +80,14 @@ a:hover {
     position: fixed;
 }
 
+.nav-item a {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.nav-link {
+    margin: 0 20px;
+}
 /* ------------------------------HOMEPAGE */
 .home-container {
   padding: 0;
@@ -182,6 +190,12 @@ a:hover {
     background: url(../images/mtv-unplugged.jpg);
 }
 
+.fade-container {
+    width: fit-content;
+    height: fit-content;
+    margin: auto
+}
+
 .album-container {
     width: 250px;
     height: 250px;
@@ -266,14 +280,14 @@ a:hover {
 }
 
 /* video */
-
+k
 .video-container {
-    margin: 12px 0;
+    margin: 7px 0;
 }
 
 @media (min-width: 768px) {
     .video-container {
-        margin: 12px 36px;
+        margin: 12px 12px;
     }
 }
 
