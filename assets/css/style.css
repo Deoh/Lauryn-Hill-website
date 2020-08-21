@@ -10,7 +10,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inconsolata", Montserrat;
+  font-weight: 600;
   position: relative;
 }
 
@@ -303,8 +304,14 @@ k
 }
 
 /* ------------------------------CONTACT */
-.contact-container input {
+.contact-container {
     margin-bottom: 15px;
+}
+
+.contact-box {
+    margin: 14px auto;
+    padding: 28px 14px;
+    max-width: 350px;
 }
 
 .center-form {
@@ -313,7 +320,3 @@ k
     max-width: 70%;
 }
 
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
