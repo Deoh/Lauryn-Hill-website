@@ -306,7 +306,6 @@ k
 
 /* ------------------------------CONTACT */
 .contact-container {
-    margin-bottom: 15px;
     padding: 0;
     background: url(../images/vinyl-image.jpg) no-repeat top center fixed;
 
@@ -329,13 +328,21 @@ k
 
 .footer-container {}
 
-#footer {
-    padding-left: 25px;
-    padding-right: 25px;
-}
 
 footer {
+    padding-left: 25px;
+    padding-right: 25px;
     min-height: 120px;
+}
+
+.list-group-item {
+    margin: 0 auto;
+    border: none;
+}
+
+.list-group {
+    margin: 0 auto;
+    width: 30%;
 }
 
 .social-links li a i {
@@ -347,7 +354,7 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: #8f8f8f;
+    background: black;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -356,4 +363,5 @@ footer {
 
 .social-links li a i:hover {
     background: rgba(191,146,50,0.7);
+    color: black;
 }
