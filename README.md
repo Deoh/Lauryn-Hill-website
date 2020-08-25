@@ -1,39 +1,66 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone project (Lauryn Hill website)
 
-Welcome USER_NAME,
+This website is built for the musician singer/songwriter Lauryn Hill
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
 
-## Gitpod Reminders
+The site was made for fans and potential fans who wish to learn more about this artists history, albums, tour dates and possibly bookings for shows.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Site owner's goal:**
+The artist is interested in selling more of their music/merchandise, providing details of upcoming events aswell as getting more bookings for future events. 
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: *Make Public*,
+features include:
 
-Another blue button should appear to click: *Open Browser*.
+- About page giving detail into the history of the artist.
+- Tour section giving details of upcoming events.
+- Music & video section providing streaming and purchase options for the artists albums along with music videos from the artist.
+- Contact section allows users to input their name, email address and details of any events they may wish the artist to perform at.
+- Social section provides links to artists social media pages.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Features Left to Implement
+- Photo gallery
 
-A blue button should appear to click: *Make Public*,
+## Technologies Used
 
-Another blue button should appear to click: *Open Browser*.
+- [HTML](https://html.com)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+- CSS
+    
+- [Bootstrap](https://getbootstrap.com)
+    - The project uses **Bootstrap**, a front-end component libraryto to help build a responsive, mobile-first website.
+- [Font Awesome](https://fontawesome.com)
+    - The social media, streaming and purchasing links use icons from **Font Awesome**.
 
-## Updates Since The Instructional Video
+- [Google Fonts](https://fonts.google.com)
+    -  The project uses **Google Fonts** for the font styling of the website.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The website navigation bar when clicked drops down with links to different section of the website, clicking these links should take you to the intended section of the page (the **ABOUT** icon should link to another html page). 
+scrolling down the page should have the same effect.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The website should scale well from mobile to desktops, in particular with regards to the website heading, "about" text, album art and music video sizing.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The website should work similarly across different browsers and screen sizes.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Certain issues discovered when navigating the website were:
+- The navbar dropdown links doesn't properly indicate (highlight) what section of the website you are currently in.
+- The scrollbar appears on the mobile version of the site.
+- Using the carousel feature from bootstrap for embedded music videos from youtube confilicted with each other when trying to use the youtube nav icon (full screen, play/pause etc). the carousel next and prev button needed to be resized.
 
---------
+## Deployment
 
-Happy coding!
+
+## Credits
+
+### Content
+- The text for the about page was copied from the article writtin by **Brian Raftery** for [Roon Labs](https://roonlabs.com)
+
+### Media
+- The photos used in this site were obtained from [fanart.tv](https://fanart.tv) and [pexels.com](https://www.pexels.com)
+
+### Acknowledgements
+
+- I received inspiration for this project from Bruno Mars, Adele, Ed Sheerans and Joel Culpepper website.
